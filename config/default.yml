@@ -1,0 +1,14 @@
+environment: default
+
+# lib/logger
+log:
+  level: debug
+  prettyPrint: false
+  redact:
+    censor: '**REDACTED**'
+    paths:
+      # Redact excessive data
+      - '*.multiValueHeaders'
+      # Redact sensitive information
+      - 'config.headers.Authorization'
+  timestamp: false

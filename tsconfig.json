@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ESNEXT",
+		"module": "commonjs",
+		"allowJs": false,
+		"sourceMap": true,
+		"noEmit": true,
+		"isolatedModules": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"alwaysStrict": true,
+		"baseUrl": "./",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	}
+}

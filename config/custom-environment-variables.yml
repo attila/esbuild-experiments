@@ -1,0 +1,5 @@
+environment: NODE_CONFIG_ENV
+
+# lib/logger
+log:
+  level: LOG_LEVEL
